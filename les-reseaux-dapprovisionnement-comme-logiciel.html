@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Les réseaux d'approvisionnement comme logiciel</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <meta name="description" content="L'article See no Evil de la fantastique revue logic.mag parle des chaînes d'approvisionnement et fait des liens avec le monde du logiciel...." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Abrume</a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/divers.html">Divers</a></li>
+                    <li><a href="/category/misc.html">Misc</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/les-reseaux-dapprovisionnement-comme-logiciel.html" rel="bookmark"
+           title="Permalink to Les réseaux d'approvisionnement comme logiciel">Les réseaux d'approvisionnement comme logiciel</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-05-05T00:00:00+02:00">
+                Published: jeu 05 mai 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/victor.html">Victor</a>
+        </address>
+<p>In <a href="/category/divers.html">Divers</a>.</p>
+
+</footer><!-- /.post-info -->      <p>L'article <a href="https://logicmag.io/scale/see-no-evil/">See no Evil</a> de la fantastique revue logic.mag parle des chaînes d'approvisionnement et fait des liens avec le monde du logiciel.</p>
+<h2>D'abord, qu'est-ce qu'une chaîne d'approvisionnement ?</h2>
+<p>En gros, la chaîne d'approvisionnement d'une entreprise c'est l'ensemble de ses fournisseurs, et des fournisseurs des fournisseurs, etc. (cette définition est purement personnelle et absolument imprécise)</p>
+<p>Comme le note l'article on devrait plutôt parler d'un réseau d'approvisionnement. Car on est loin d'une structure en chaîne où l'approvisionnement est linéaire comme suit:</p>
+<div class="highlight"><pre><span></span><span class="n">Entreprise</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Entreprise</span><span class="w"> </span><span class="n">B</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Entreprise</span><span class="w"> </span><span class="n">Z</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Vente</span><span class="w"> </span><span class="n">du</span><span class="w"> </span><span class="n">produit</span><span class="w"> </span><span class="n">final</span><span class="p">.</span><span class="w"></span>
+</pre></div>
+
+
+<p>On aurait plutôt une arborescence inversée, où certains fournisseurs peuvent se substituer à d'autres en cas de pépin:</p>
+<div class="highlight"><pre><span></span><span class="n">Entreprise</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="err">\</span><span class="w"></span>
+<span class="n">Entreprise</span><span class="w"> </span><span class="n">B</span><span class="w">  </span><span class="o">----</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">Entreprise</span><span class="w"> </span><span class="n">D</span><span class="w"> </span><span class="err">\</span><span class="w"></span>
+<span class="n">Entreprise</span><span class="w"> </span><span class="n">C</span><span class="w"> </span><span class="o">/</span><span class="w">                     </span><span class="err">\</span><span class="w"></span>
+<span class="w">                                     </span><span class="o">---</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">Entreprise</span><span class="w"> </span><span class="n">E</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">Vente</span><span class="w"> </span><span class="n">du</span><span class="w"> </span><span class="n">produit</span><span class="w"> </span><span class="n">final</span><span class="p">.</span><span class="w">  </span>
+<span class="n">Entreprise</span><span class="w"> </span><span class="n">A</span><span class="s">&#39; \                     /</span>
+<span class="s">Entreprise B&#39;</span><span class="w">  </span><span class="o">----</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">Entreprise</span><span class="w"> </span><span class="n">D</span><span class="s">&#39;/</span>
+<span class="s">Entreprise C&#39;</span><span class="w"> </span><span class="o">/</span><span class="w"></span>
+</pre></div>
+
+
+<p>Cette structure mobile souvent très profonde fait qu'il est très difficile de savoir pour une entreprise, d'où proviennent ses intrants. La mondialisation fait aussi que les fournisseurs sont très loin les uns des autres. </p>
+<p>Certaines entreprises disent pouvoir garantir certains critères de qualités, sociaux et écologiques. En réalité c'est très difficile à faire, car il faut s'assurer que ces critères soient respectés sur tous les nœuds du réseau.</p>
+<p>Si c'est un si gros bazar, comment ça peut marcher ? Comment, devant cette complexité, arrive-ton tout de même à acheminer les biens sans se perdre dans la complexité ?</p>
+<h2>Le conteneur et la programmation orientée objet</h2>
+<p>Le conteneur est un symbole de la mondialisation. Et en effet, c'est l'invention qui a permis ce développement gigantesque des chaînes de production. L'idée est simple, on a des marchandises, et on les mets dans une boîte. Sur la boîte il est écrit où elle doit être transportée. L'intérêt est qu'on a pas à se soucier de ce qu'il y a dans la boite, on a juste à l'amener à bon port (à condition qu'elle ne tombe pas dans mer !). Chaque acteur de la chaîne du réseau d'approvisionnement n'est exposé qu'a l'information dont il a besoin. </p>
+<p>C'est ici qu'est fait un parallèle avec le logiciel. Une méthode de programmation appelée programmation orientée objet consiste à mettre le code dans des objets. Un objet contient des attributs et peut effectuer des actions. Cependant, un programmeur qui utilise l'objet, peut effectuer ses actions sans savoir comment les actions sont programmées. La complexité du programme est "cachée" dans l'objet. Vous voyez le lien avec le conteneur ?</p>
+<p>Pour donner un autre exemple, je crois avoir lu quelque part une métaphore de la programmation orientée objet avec les machines à café. Quand on fait un café sur une machine Nespresso, on la laisse faire sa tambouille interne, on lui demande : "fait un café" et elle fait un café. (note: je déteste les cafetière Nespresso, c'est juste un bon exemple)</p>
+<p>A l'inverse lorsqu'on une cafetière à filtre, on est confronté à plus de complexité, il faut mettre l'eau dedans, puis le café, puis le mettre sur le feu, allumer le feu, etc. </p>
+<p>Donc pour résumer, la programmation objet est l'équivalent du contenarisation ou de la machine à café Nespresso en programmation. C'est l'idée de mettre la complexité dans des objets, pour ne pas avoir à interagir avec cette complexité à chaque fois qu'on utilise l'objet. </p>
+<h2>Et alors ?</h2>
+<p>L'article s'arrête là et nous laisse sur notre faim. Et donc ? Qu'est-ce qu'on peut en conclure de ça ? C'est partit pour les réflexions alambiquées et les raisonnements capillotracté !</p>
+<p>Le mécanisme qui sous tend la mondialisation et la complexification des réseaux d'approvisionnement s'appuie sur la même "méthode" que le développement logiciel. Est-ce qu'il faut s'attendre aux même horreurs qui sortent de la mondialisation dans le développement logiciel ? A priori je dirai non, parce que la programmation orientée objet c'est cool. Mais c'est comme demander à Amazon ce qu'elle pense de la contenarisation, elle trouve ça cool bien sûr. </p>
+<p>Alors posons plutôt la question : est-ce qu'il y a des effets indésirables de la modularité dans les logiciels ? </p>
+<p>Peut-être. Il y a un problème de "bloat" logiciel et web. C'est à dire que les logiciels, même pour faire des tâches simples, ont une taille énorme. Est-ce que ce problème n'est pas le fruit de cette modularité ? Si on avait pas des objets modulaires et indépendants les unes des autres, on serait forcé de considérer toutes la chaîne logicielle dans son ensemble, ce qui forcerait à la garder à une taille raisonnable. Au lieu de ça on a des logiciels qui tournent sur des couches de millions de lignes de code pour nous afficher des recettes de cuisines... A méditer. </p>
+<p>Par contre la modularité c'est aussi ce qui a permit Internet. Le système des paquets, ressemble beaucoup au système des conteneurs. Et c'est dur de critiquer le fonctionnement d'Internet quand même... </p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
