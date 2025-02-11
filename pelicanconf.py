@@ -1,6 +1,6 @@
 AUTHOR = 'Victor'
 SITENAME = 'Le site de Victor'
-SITEURL = ''
+SITEURL = 'https://victorlebref.github.io/pelican'
 
 PATH = 'content'
 

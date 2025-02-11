@@ -1,0 +1,4 @@
+Utiliser ce tips pour publier sur github pages : https://docs.getpelican.com/en/latest/tips.html
+
+- ghp-import output -b gh-pages
+- git push origin gh-pages
