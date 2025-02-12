@@ -1,3 +1,6 @@
+
+# Publier
+
 Utiliser ce tips pour publier sur github pages : https://docs.getpelican.com/en/latest/tips.html
 
 - pelican (pour créer les outputs)
@@ -7,14 +10,16 @@ Utiliser ce tips pour publier sur github pages : https://docs.getpelican.com/en/
 
 ne pas oublier de pusher les changements de "content" dans main.
 
-Todo: 
+
+# Todo 
+
 - article damasio : 
-    - améliorer la mise en forme des phonèmes
+    - DONE améliorer la mise en forme des phonèmes
         - image et tableau côté à côte ? ou autre manière de présenter ?
         - sinon on vire le graphique, on garde juste le tableau avec le pourcentage d'occurence. 
         - ou sinon on montre d'abord les graphiques côté à côté pour comparer sov/golgoth et caracole 
         - puis on fait des zoom sur golgoth et caracole avec les phonèmes en français et les extraits. 
-    - améliorer présentation des nuages de mots
+    - DONE améliorer présentation des nuages de mots
         - utiliser des tabs ? un tableau ?
         - retirer car pas très bien interprété ? ou bien faire un lien avec les phonèmes
     - améliorer le format des graphiques (graphiques trop aplatis ?)

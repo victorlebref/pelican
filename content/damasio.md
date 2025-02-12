@@ -6,12 +6,13 @@ category: Analyse de donnée
 summary: Analyse des caractéristiques de langage des personnages
 ---
 
-
 Cet article fait une analyse de texte de la Horde du Contrevent de Alain
 Damasio en se focalisant sur l'hétérogénéité dans les interventions des
 différents personnages. On essaye de voir si une analyse quantitative du
 texte nous permet de détecter des particularité du language des
 personnages.
+
+C'est l'occasion de me frotter à l'analyse de donnée textuelle tout en prenant plaisir de travailler sur un de mes romans préférés
 
 ## Nombre d'interventions
 
@@ -84,25 +85,16 @@ On doit d'abord faire un peu de nettoyage des données. Retirer la
 ponctuation, retirer les noms des personnages (je suis seulement
 intéressé par les mots, pas les noms.)
 
-### Caracole
+|||
+|---|---|
+|Caracole|Golgoth|
+|![]({attach}media/75a651f4503e1b93c4e750e2e7239d31ca06732f.png){width="100%"}|![]({attach}media/66a73f5731a98695f9c8f893f8714b67b30b2ec1.png)|
+|**Oroshi**|**Pietro**|
+|![]({attach}media/7eb158aad950bd19eb8618d5b59399964f3337b4.png)|![]({attach}media/b71fd331c415ff29aacecf53f033befb8bfc60ae.png)|
+|Sov||
+|![]({attach}media/947ce0e3d893fa01713785ae082b9d9f54f504b6.png)|
 
-![]({attach}media/75a651f4503e1b93c4e750e2e7239d31ca06732f.png){width="672"}
 
-### Golgoth
-
-![]({attach}media/66a73f5731a98695f9c8f893f8714b67b30b2ec1.png){width="672"}
-
-### Oroshi
-
-![]({attach}media/7eb158aad950bd19eb8618d5b59399964f3337b4.png){width="672"}
-
-### Pietro
-
-![]({attach}media/b71fd331c415ff29aacecf53f033befb8bfc60ae.png){width="672"}
-
-### Sov
-
-![]({attach}media/947ce0e3d893fa01713785ae082b9d9f54f504b6.png){width="672"}
 
 Comme on l'a vu, Caracole a un très grand vocabulaire. Il est normal que
 son nuage de mot ne soit pas dominé (il était dominé par Sélème parce
@@ -131,7 +123,29 @@ fait sur le profil phonétique des personnages.
 Pour chaque personnage j'ai regardé quels phonèmes il utilisait le plus,
 en donnant sa "traduction" en français (le son correspondant écrit en lettre alphabétique). Je me suis concentré sur Caracole, Golgoth et Sov car ils ont chacun une manière particulière de s'exprimmer surtout les deux premiers, Sov est plutôt pris comme référence.
 
+||
+|---|
+|Sov|
+|![]({attach}media/92dac954ad0fb8e2d3889cb0f59ef1e59aa399a2.svgz)|
+|Golgoth|
+|![]({attach}media/19876c5db2b4b498a75fe27727259415ea34cfe7.svgz)|
+|Caracole|
+|![]({attach}media/cc927cfcb5bdab77b0cd4c5fe93bc4bf73e027d7.svgz)|
+
+
+On voit dans ces graphiques a quel point les distributions de phonèmes sont beaucoup plus inégalement réparties chez Golgoth et Caracole par rapport à Sov. 
+
+Ci-dessous, nous faisons un zoom sur les phonèmes les plus présents chez Golgoth et Sov, et nous illustrons avec un passage du livre. 
+
 ### Golgoth
+
+|Phonème  |"Équivalent français"  |
+|:-------:|:---------------------:|
+|ɡ        |gu                     |
+|ʃ        |ch                     |    
+|a        |a                      |
+|b        |b                      |
+|ʒ        |j                      |
 
 "Dès que **j**'ai reniflé le **b**l**aa**st, à l'odeur de froid,
 **j**'ai su que ç**a** allait **cha**rcler. **J**'ai enfoncé mon
@@ -139,45 +153,19 @@ c**a**s**qu**e de **c**uir, plein front, san**g**lé le pourpoint,
 sec. **J**usqu'au **g**roin."
 
 
-![]({attach}media/19876c5db2b4b498a75fe27727259415ea34cfe7.svgz){width="50%"}
-
-|Phonème  |"Équivalent français"
-|---------|-----------------------
-|ɡ        |gu
-|ʃ        |ch
-|a        |a
-|b        |b
-|ʒ        |j
-
-
 ### Caracole
+
+
+|Phonème  |"Équivalent français"  |
+|:-------:|:---------------------:|
+|ɔ        |o ouvert               |
+|o        |o fermé                |
+|f        |f                      |
+|k        |k                      |
+|u        |ou                     |
 
 "Des cy**ch**r**o**nes, des psy**ch**r**o**nes, des **ch**r**o**tales à
 la l**ou**che, en vrac, par pa**q**uets de cin**q**, par de **d**ouze,
 gris métallisé, r**ou**ge garance ou bleu **cou**rge, pour t**ou**tes
 les c**ou**rses et les dég**oû**ts, ne **f**uyez pas n**ou**s
 **au**tres, pas enc**o**re !"
-
-![]({attach}media/cc927cfcb5bdab77b0cd4c5fe93bc4bf73e027d7.svgz){width="50%"}
-
-|Phonème  |"Équivalent français"
-|---------|-----------------------
-|ɔ        |o ouvert
-|o        |o fermé
-|f        |f
-|k        |k
-|u        |ou
-
-
-### Sov
-
-![]({attach}media/92dac954ad0fb8e2d3889cb0f59ef1e59aa399a2.svgz){width="50%"}
-
-|Phonème  |"Équivalent français"
-|---------|-----------------------
-|ʃ        |ch
-|f        |f
-|i        |i
-|d        |d
-|n        |n
-
