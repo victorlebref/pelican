@@ -9,7 +9,7 @@
 
         <header>
             <h1>{{ article.title }}</h1>
-            <p class="date">Written on <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time></p>
+            <p class="date"><time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time></p>
         </header>
 
         <article>

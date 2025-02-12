@@ -1,6 +1,6 @@
 ---
 title: Décroissance et géopolitique...
-summary: ... des termes très rarement associés.
+summary: ... des termes trop rarement associés ?
 author: Victor Lebref
 date: July 30, 2023
 category: Divers
