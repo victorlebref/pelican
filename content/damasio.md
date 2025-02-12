@@ -8,7 +8,9 @@ summary: "Dès que j'ai reniflé le blaast, à l'odeur de froid, j'ai su que ça
 
 Cet article fait une analyse de texte de la Horde du Contrevent de Alain Damasio en se focalisant sur l'hétérogénéité dans les interventions des différents personnages. On essaye de voir si une analyse quantitative du texte nous permet de détecter des particularité du language des personnages.
 
-C'est l'occasion de me frotter à l'analyse de donnée textuelle tout en prenant plaisir de travailler sur un de mes romans préférés
+C'est l'occasion de me frotter à l'analyse de donnée textuelle tout en prenant plaisir de travailler sur un de mes romans préférés.
+
+Pour ceux qui ne l'ont pas lu, la Horde du Contrevent est un roman à plusieurs narrateur. Chaque paragraphes est précédés d'un symbole mentionnant qui est le narrateur. J'ai donc pu "parser" le texte pour associer chaque passage à un narrateur et analyser le language de chacun. 
 
 ## Nombre d'interventions
 
