@@ -1,5 +1,5 @@
 ---
-title: Réseaux d'approvisionnement et logiciel
+title: Réseaux d'approvisionnement & logiciel
 subtitle: Quel rapport entre container et programmation orienté-objet ?
 author: Victor Lebref
 date: May 05, 2022

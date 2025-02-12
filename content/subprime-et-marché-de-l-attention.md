@@ -1,5 +1,5 @@
 ---
-title: Subprime et marché de l'attention
+title: Subprime & marché de l'attention
 subtitle: Review de Tim Wang - Le grand krach de l'attention
 author: Victor Lebref
 date: December 29, 2022

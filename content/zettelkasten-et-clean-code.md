@@ -1,5 +1,5 @@
 ---
-title: Zettelkasten et Clean Code
+title: Zettelkasten & Clean Code
 subtitle: Comment prendre des notes comme on développe un logiciel
 author: Victor Lebref
 publication: Victor Lebref

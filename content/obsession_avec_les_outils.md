@@ -1,6 +1,7 @@
 ---
-title: Outils et obsession 
+title: Outils & obsession 
 date: 2022-09-12
+summary: Vous aussi vous passez des heures à comparer des logiciels de prises de notes ?
 category: Divers
 ---
 

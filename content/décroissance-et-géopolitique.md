@@ -1,5 +1,5 @@
 ---
-title: Décroissance et géopolitique...
+title: Décroissance & géopolitique...
 summary: ... des termes trop rarement associés ?
 author: Victor Lebref
 date: July 30, 2023

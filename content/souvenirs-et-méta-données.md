@@ -1,5 +1,5 @@
 ---
-title: Souvenirs et méta-données
+title: Souvenirs & méta-données
 summary: Quand une IA est confrontée à un problème de stockage...
 author: Victor Lebref
 date: 05/06/2022

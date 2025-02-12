@@ -1,5 +1,5 @@
 ---
-title: Durée des chansons et support physique
+title: Durée des chansons & support physique
 author: Victor Lebref
 date: 20/11/2023
 category: Analyse de donnée
