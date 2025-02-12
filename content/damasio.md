@@ -3,7 +3,7 @@ title: La Horde du Contrevent & phonèmes
 author: Victor Lebref
 date: March 24, 2020
 category: Analyse de donnée
-summary: Analyse des spécificités de langage des personnages
+summary: "Dès que j'ai reniflé le blaast, à l'odeur de froid, j'ai su que ça allait charcler..."
 ---
 
 Cet article fait une analyse de texte de la Horde du Contrevent de Alain Damasio en se focalisant sur l'hétérogénéité dans les interventions des différents personnages. On essaye de voir si une analyse quantitative du texte nous permet de détecter des particularité du language des personnages.
