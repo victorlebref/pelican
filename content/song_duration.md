@@ -3,7 +3,7 @@ title: Durée des chansons & support physique
 author: Victor Lebref
 date: 20/11/2023
 category: Analyse de donnée
-summary: Analyse des caractéristiques de langage des personnages
+summary: La colline du CD et la falaise du streaming
 ---
 
 Je me suis amusée à mettre en image un phénomène [assez documenté](https://www.washingtonpost.com/entertainment/interactive/2024/shorter-songs-again/) et facile à percevoir : depuis l'avènement du streaming, la durée des chansons est de plus en plus courte. 
