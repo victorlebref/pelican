@@ -13,8 +13,6 @@ différents personnages. On essaye de voir si une analyse quantitative du
 texte nous permet de détecter des particularité du language des
 personnages.
 
-La partie technique est décrite dans le making-of (lien !)
-
 ## Nombre d'interventions
 
 
@@ -29,7 +27,7 @@ Comme expliqué
 [ici](https://blogs.mediapart.fr/raphadasilva/blog/181117/la-horde-du-contrevent-un-aller-retour-eprouvant),
 même si le livre se veut polyphonique, il y a quand même des narrateurs
 principaux (Sov et Pietro notamment), qui parlent beaucoup plus que les
-autres et dont (on le verra), le language est plus neutre.
+autres et dont, on le verra, le language est plus neutre.
 
 
 ## Longueur moyene des interventions
@@ -73,8 +71,8 @@ Sans surprise Caracole caracole en tête, presque 40% des mots qu'il
 utilise ne sont utilisés qu'une seule fois. Cela n'est guère étonnant
 pour ce personnage de vif, maître de l'art oratoire. Sov le plus bavard,
 se répète beaucoup plus. Mais plus l'on parle, plus il est difficile de
-ne pas répéter des mots, cela explique pourquoi ce graph ressemble au
-graph inverse du nombre d'interventions.
+ne pas répéter des mots, cela explique pourquoi ce graphique ressemble au
+graphique inverse du nombre d'interventions.
 
 
 ## Nuage de mots
@@ -108,7 +106,7 @@ intéressé par les mots, pas les noms.)
 
 Comme on l'a vu, Caracole a un très grand vocabulaire. Il est normal que
 son nuage de mot ne soit pas dominé (il était dominé par Sélème parce
-que son nom était écrit à chacune de ses interventions, je l'ai donc
+que son nom était écrit à chacune de ses interventions sur tout un passage, je l'ai donc
 retiré).
 
 Golgoth est un jusqu-au-boutiste, il ne fait pas de compromis. Ses mots
@@ -117,31 +115,21 @@ sont "rien", "bout" comme "au bout", "dessus", "toute", "personne",
 parle beaucoup de cette horde, de sa structure et son objectif ("horde",
 "pack", "contre")
 
-Comme on l'a vu, Caracole a un très grand vocabulaire. Il est normal que
-son nuage de mot ne soit pas dominé (il était dominé par Sélème parce
-que son nom était écrit à chacune de ses interventions, je l'ai donc
-retiré).
-
-Golgoth est un jusqu-au-boutiste, il ne fait pas de compromis. Ses mots
-sont "rien", "bout" comme "au bout", "dessus", "toute", "personne",
-"premier". Il est aussi le chef de la horde, il est normal qu'il en
-parle beaucoup de cette horde, de sa structure et son objectif ("horde",
-"pack", "contre")
 # Analyse des phonèmes
 
 Dans cette partie, on fait une analyse des phonèmes les plus utilisés
-par les personnages. \> J'ai toujours travaillé sur une écriture assez
+par les personnages.
+
+> J'ai toujours travaillé sur une écriture assez
 physique, fondée sur les phonèmes, sur la puissance d'expressivité des
 consonnes, des voyelles.
 <https://www.centrepompidou.fr/fr/magazine/article/alain-damasio-lecrivain-des-zones-imaginaires>
-On va donc éssayer de voir de manière quantitative quel travaille il a
+
+On va donc éssayer de voir de manière quantitative quel travail il a
 fait sur le profil phonétique des personnages.
 
 Pour chaque personnage j'ai regardé quels phonèmes il utilisait le plus,
-en donnant sa "traduction" en français. Je me suis concentré sur
-Caracole, Golgoth et Sov car ils ont chacun une manière particulière de
-s'exprimmer surtout les deux premiers, Sov est plutôt pris comme
-référence.
+en donnant sa "traduction" en français (le son correspondant écrit en lettre alphabétique). Je me suis concentré sur Caracole, Golgoth et Sov car ils ont chacun une manière particulière de s'exprimmer surtout les deux premiers, Sov est plutôt pris comme référence.
 
 ### Golgoth
 
@@ -149,6 +137,7 @@ référence.
 **j**'ai su que ç**a** allait **cha**rcler. **J**'ai enfoncé mon
 c**a**s**qu**e de **c**uir, plein front, san**g**lé le pourpoint,
 sec. **J**usqu'au **g**roin."
+
 
 ![]({attach}media/19876c5db2b4b498a75fe27727259415ea34cfe7.svgz){width="50%"}
 
@@ -178,8 +167,6 @@ les c**ou**rses et les dég**oû**ts, ne **f**uyez pas n**ou**s
 |f        |f
 |k        |k
 |u        |ou
-
-Parler des assonances et allitérations
 
 
 ### Sov
