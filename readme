@@ -13,7 +13,11 @@ ne pas oublier de pusher les changements de "content" dans main.
 
 # Todo 
 
-- article damasio : 
+- améliorer présentation du code
+- article damasio : ajouter code source
+
+
+- DONE article damasio : 
     - DONE améliorer la mise en forme des phonèmes
         - image et tableau côté à côte ? ou autre manière de présenter ?
         - sinon on vire le graphique, on garde juste le tableau avec le pourcentage d'occurence. 
@@ -23,4 +27,4 @@ ne pas oublier de pusher les changements de "content" dans main.
         - utiliser des tabs ? un tableau ?
         - retirer car pas très bien interprété ? ou bien faire un lien avec les phonèmes
     - améliorer le format des graphiques (graphiques trop aplatis ?)
-- ajouter article sur durée des chansons
+- DONE ajouter article sur durée des chansons
