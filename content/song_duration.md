@@ -18,7 +18,9 @@ On note toutefois beaucoup de variation dans la durée moyenne. Ces variations s
 
 Le vinyl 33 tours, apparu en 1948, permet de stocker de 40 minute à une heure de musique. 
 En 1963 sort la cassette audio, qui, en plus de pouvoir être réenregistrable, permet aussi un stockage plus important, entre une heure et deux heures de musique. 
+
 Le CD apparaît en 1982, mais il ne permet pas de stocker beaucoup plus de musique que la cassette. Cependant, on peut avoir deux disques par boite (un double album), ce qui a peut-être permis d'allonger encore la durée de musique disponible. On observe donc une légère hausse, puis une stagnation, notamment dans les années 2000, où la musique se télécharge de plus en plus sur internet, grace au format MP3 et à la massification de l'accès domestique à internet. 
+
 En 2011, la plateforme Spotify est "live", avec un modèle économique qui paye les artistes sur le nombre d'écoute. Cela incite à produire des chansons toujours plus courtes, et on observe la fameuse "mort du troisième couplet", en 2020, la durée moyenn d'une chanson est en dessous des trois minutes et demi.
 
 ## Annexe technique
