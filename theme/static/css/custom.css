@@ -1,7 +1,3 @@
-.inline_category{
-    font-style: italic;
-    color: #555 !important;
-    font-size: small;
-    font-weight: lighter !important;
-    padding-left: 0.8em;
+.about {
+    font-size: larger;
 }

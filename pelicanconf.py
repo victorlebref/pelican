@@ -1,6 +1,6 @@
 AUTHOR = 'Victor'
 SITENAME = 'Le site de Victor'
-SITEURL = 'https://victorlebref.github.io/pelican'
+SITEURL = '.'
 
 TIMEZONE = 'Europe/Brussels'
 
