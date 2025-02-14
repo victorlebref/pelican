@@ -12,7 +12,7 @@
             <article class="post-overview">
                 <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
                 <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
-                <div class="excerpt">{{ article.summary }}</div>
+                <div class="excerpt">{{ article.summary }}</div><br />
             </article>
 
             {% endfor %}
