@@ -10,7 +10,7 @@
             {% for article in articles_page.object_list %}
 
             <article class="post-overview">
-                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a><span class="inline_category">(<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>)</span></h2>
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
                 <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%b %d, %Y') }}</time>
                 <div class="excerpt">{{ article.summary }}</div>
             </article>
