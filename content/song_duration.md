@@ -10,7 +10,7 @@ Je me suis amusée à mettre en image un phénomène [assez documenté](https://
 
 En allant chercher des données sur kaggle, j'ai regardé plus généralement comment a évolué la durée des chansons en fonction du support du moment. Voici le résultat :
 
-![]({attach}media/g130.png)
+![Evolution de la durée des chansons dans le temps]({attach}media/g130.png){width=80% height="80%}
 
 On voit que la durée a globalement augmenté, d'environ 2 minutes et demi en moyenne en 1925 vers plus de 4 minutes en 2000.
 

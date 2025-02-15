@@ -1,6 +1,7 @@
 AUTHOR = 'Victor'
 SITENAME = 'Le site de Victor'
 SITEURL = '.'
+SITESUBTITLE = "J’aime faire des liens entre des choses qui n’ont rien à voir. Ainsi ces choses ont quelque chose à voir et elles ne s'ennuient pas."
 
 TIMEZONE = 'Europe/Brussels'
 
@@ -17,6 +18,6 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = "./theme"
+THEME = "/home/perso/pelican-themes/Flex"
 OUTPUT_PATH = 'output'
 PATH = 'content'
