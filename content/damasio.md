@@ -3,7 +3,7 @@ title: Golgoth & Caracole
 author: Victor Lebref
 date: March 24, 2020
 category: Analyse de donnée
-summary: "Analyse de texte de 'la Horde du Contrevent' de Alain Damasio"
+summary: Analyse de texte de 'la Horde du Contrevent' de Alain Damasio"
 ---
 
 Cet article fait une analyse de texte de la Horde du Contrevent de Alain Damasio en se focalisant sur l'hétérogénéité dans les interventions des différents personnages. On essaye de voir si une analyse quantitative du texte nous permet de détecter des particularité du language des personnages.
