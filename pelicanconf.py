@@ -21,3 +21,8 @@ DEFAULT_PAGINATION = False
 THEME = "/home/perso/pelican-themes/Flex"
 OUTPUT_PATH = 'output'
 PATH = 'content'
+LINKS = [
+    ("Analyse de donnée", 
+     "https://victorlebref.github.io/pelican/category/analyse-de-donnee.html"),
+     ("Divers",
+      "https://victorlebref.github.io/pelican/category/divers.html")]
