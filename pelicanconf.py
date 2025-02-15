@@ -1,6 +1,6 @@
 AUTHOR = 'Victor'
 SITENAME = 'Le site de Victor'
-SITEURL = '.'
+SITEURL = 'https://victorlebref.github.io/pelican'
 SITESUBTITLE = "J’aime faire des liens entre des choses qui n’ont rien à voir. Ainsi ces choses ont quelque chose à voir et elles ne s'ennuient pas."
 
 TIMEZONE = 'Europe/Brussels'
