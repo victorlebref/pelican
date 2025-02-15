@@ -316,12 +316,12 @@ main footer span.footer-separator {
 }
 
 .tag-cloud a:hover {
-    background-color: #ff5a09
+    background-color: #bf6933
 }
 
 a.btn,
 section#isso-thread section.auth-section p.post-action input {
-    background-color: #d9411e;
+    background-color: #C15D1E;
     padding: .6em;
     font-size: .8em;
     line-height: 1;
@@ -334,7 +334,7 @@ section#isso-thread section.auth-section p.post-action input {
 }
 
 a.btn:hover {
-    background-color: #ff5a09
+    background-color: #bf6933
 }
 
 .center,
